@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.java;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -26,7 +26,7 @@ import java.util.Set;
  * Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
  *
  */
-public class Longest_Substring_Without_Repeating_Characters_3 {
+class Longest_Substring_Without_Repeating_Characters_3 {
     public int lengthOfLongestSubstring(String s) {
         Set<Character> set = new HashSet();
         int right = 0;

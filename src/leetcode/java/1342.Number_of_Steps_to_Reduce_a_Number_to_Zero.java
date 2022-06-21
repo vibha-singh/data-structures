@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.java;
 
 /**
  * Given an integer num, return the number of steps to reduce it to zero.
@@ -33,7 +33,7 @@ package leetcode;
  * Output: 12
  */
 
-public class Number_of_Steps_to_Reduce_a_Number_to_Zero_1342 {
+class Number_of_Steps_to_Reduce_a_Number_to_Zero_1342 {
 
     int cnt = 0;
     public int numberOfSteps(int num) {
@@ -42,7 +42,7 @@ public class Number_of_Steps_to_Reduce_a_Number_to_Zero_1342 {
         cnt +=1;
         if(num %2 == 0){
             numberOfSteps(num/2);
-        }else{
+        } else {
             numberOfSteps(num -1);
         }
         return cnt;

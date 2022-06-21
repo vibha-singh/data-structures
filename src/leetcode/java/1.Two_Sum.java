@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.java;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -27,7 +27,7 @@ import java.util.Map;
  * Output: [0,1]
  */
 
-public class Two_Sum_1 {
+class Two_Sum_1 {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap();
         int [] result = new int[2];

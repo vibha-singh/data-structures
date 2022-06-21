@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.java;
 
 /**
  * Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
@@ -20,7 +20,7 @@ package leetcode;
  * Input: x = 120
  * Output: 21
  */
-public class Reverse_Integer_7 {
+class Reverse_Integer_7 {
     public int reverse(int x) {
         boolean isNegative = false;
         if (x < 0){
@@ -28,14 +28,14 @@ public class Reverse_Integer_7 {
             x = -x;
         }
         long ans = 0;
-        while(x>0){
+        while(x > 0){
             ans = (ans*10) + x%10;
             x = x/10;
         }
         if(isNegative){
             ans = -ans;
         }
-        if(Integer.MIN_VALUE<=ans && ans<=Integer.MAX_VALUE){
+        if(Integer.MIN_VALUE <= ans && ans <= Integer.MAX_VALUE){
             return (int)ans;
         }
         return 0;
