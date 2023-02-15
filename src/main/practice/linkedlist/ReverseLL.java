@@ -14,7 +14,7 @@ public class ReverseLL {
        }
     }
 
-    private static Node reverseLL(Node head) {
+    public static Node reverseLL(Node head) {
         Node prev = null, curr = head;
         while(curr != null ) {
             Node temp = curr.next;

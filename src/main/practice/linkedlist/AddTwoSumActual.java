@@ -30,7 +30,11 @@ public class AddTwoSumActual {
     private static ReverseLL.Node addTwoNum(ReverseLL.Node head1, ReverseLL.Node head2) {
         if(head1 == null) return head2;
         if(head2 == null) return head1;
+        //1) Reverse both the list
+        head1 = ReverseLL.reverseLL(head1);
+        head2 = ReverseLL.reverseLL(head2);
 
+        //2) Add the list
         ReverseLL.Node dummy = new ReverseLL.Node(-1);
         ReverseLL.Node head = dummy;
         int carry  = 0;
@@ -51,6 +55,7 @@ public class AddTwoSumActual {
         if(carry > 0) {
             dummy.next = new ReverseLL.Node(carry);
         }
-        return head.next;
+        // reverse the result
+        return ReverseLL.reverseLL(head.next);
     }
 }
