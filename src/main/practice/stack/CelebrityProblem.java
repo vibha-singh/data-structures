@@ -3,7 +3,7 @@ package main.practice.stack;
 import java.util.Stack;
 
 /**
- * A celebrity is a person, who is known to everone and knows none.
+ * A celebrity is a person, who is known to everyone and knows none.
  * Given a square matrix and if ith person knows jth then M[i][j] = 1 else 0
  */
 public class CelebrityProblem {
@@ -32,7 +32,7 @@ public class CelebrityProblem {
         for(int i = 0; i<M.length; i++) {
             if(i != celeb && (M[i][celeb] == 0 || M[celeb][i] == 1)) ans = -1;
         }
-        ans = celeb;
+        ans = ans != -1 ? celeb:-1;
         System.out.println(ans);
     }
 }

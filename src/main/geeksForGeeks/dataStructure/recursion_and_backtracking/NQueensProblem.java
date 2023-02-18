@@ -1,7 +1,6 @@
 package main.geeksForGeeks.dataStructure.recursion_and_backtracking;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class NQueensProblem {
     static int N = 4;

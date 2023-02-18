@@ -3,7 +3,7 @@ package main.practice.dp.jumpGame;
 import java.util.Arrays;
 
 /**
- * Given array of nums which indicate max number of jump from any index. Rach last index in minimum number of moves.
+ * Given array of nums which indicate max number of jump from any index. Reach last index in minimum number of moves.
  */
 public class JumpGameII {
     public static void main(String[] args) {

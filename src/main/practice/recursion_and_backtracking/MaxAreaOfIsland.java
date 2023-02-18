@@ -1,4 +1,4 @@
-package main.practice.graph;
+package main.practice.recursion_and_backtracking;
 
 public class MaxAreaOfIsland {
     public static void main(String[] args) {

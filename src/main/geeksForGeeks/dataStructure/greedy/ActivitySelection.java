@@ -1,7 +1,6 @@
 package main.geeksForGeeks.dataStructure.greedy;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class ActivitySelection {
     static class Activity implements Comparable<Activity> {
