@@ -1,10 +1,14 @@
 package main.practice.dp;
 
+
 public class LongestPallindromicSubsequence {
     public static void main(String[] args) {
         String s1 = "GEEKSFORGEEKS";
         String s2 = reverseString(s1);
         System.out.println(LCS(s1, s2));
+        CurrentValue res = new CurrentValue();
+        longestPallindromicSubsequence(s1, 0, "", res);
+        System.out.println(res);
     }
 
     static int LCS(String s1, String s2) {
@@ -36,5 +40,44 @@ public class LongestPallindromicSubsequence {
             end--;
         }
         return String.valueOf(chars);
+    }
+
+    static void longestPallindromicSubsequence(String s, int currIndex, String currString, CurrentValue res){
+        if(currIndex >= s.length()) {
+            String reverseString = reverseString(currString);
+            if(currString.equals(reverseString) ){
+                if(res.getS().length() > 0 ) {
+                    if(res.getS().length() < currString.length()) res.setS(currString);
+                } else {
+                    res.setS(currString);
+                }
+            }
+            return;
+        }
+
+        char currValue = s.charAt(currIndex);
+        longestPallindromicSubsequence(s, currIndex+1, currString, res);
+        currString += currValue;
+        longestPallindromicSubsequence(s, currIndex+1, currString, res);
+    }
+
+}
+
+class CurrentValue {
+    String s ="";
+
+    public String getS() {
+        return s;
+    }
+
+    public void setS(String s) {
+        this.s = s;
+    }
+
+    @Override
+    public String toString() {
+        return "CurrentValue{" +
+                "s='" + s + '\'' +
+                '}';
     }
 }

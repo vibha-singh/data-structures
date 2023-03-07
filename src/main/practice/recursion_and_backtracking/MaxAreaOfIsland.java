@@ -19,13 +19,18 @@ public class MaxAreaOfIsland {
 
     private static int maxSizeOfIsland(int[][] island, int i, int j, int m, int n) {
         if(i<0 || j<0 || i>=m || j>= n || island[i][j] != 1) return 0;
-
         island[i][j] = 0;
         int count = 1;
         count += maxSizeOfIsland(island, i+1,j,m,n);
         count += maxSizeOfIsland(island, i-1,j,m,n);
         count += maxSizeOfIsland(island, i,j+1,m,n);
-        count += maxSizeOfIsland(island, i,j,m+1,n);
+        count += maxSizeOfIsland(island, i,j-1,m,n);
+
+        count += maxSizeOfIsland(island, i+1, j-1, m,n);
+        count += maxSizeOfIsland(island, i+1, j+1, m,n);
+        count += maxSizeOfIsland(island, i-1, j+1, m,n);
+        count += maxSizeOfIsland(island, i-1, j-1, m,n);
+
         return count;
     }
 

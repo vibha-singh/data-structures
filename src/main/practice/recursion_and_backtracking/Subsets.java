@@ -65,6 +65,8 @@ public class Subsets {
     /**
      * Iterative
      * @param str
+     *
+     * this will generate substring not the subsequence
      */
     private static void generateAllSubstring(String str) {
         for(int i = 0; i<str.length(); i++) {

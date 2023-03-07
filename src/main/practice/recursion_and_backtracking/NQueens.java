@@ -50,39 +50,34 @@ public class NQueens {
     }
 
      static boolean validDiagonal(int currCol, int currRow, int[][] matrix) {
-        //left up
-        int r = currRow;
+        int r = currRow; //left up
         int c = currCol;
         while(r >= 0 && c >= 0) {
             if(matrix[r][c] == 1) return false;
             r--;
             c--;
         }
-        //right up
-         r = currRow;
+         r = currRow;  //right up
          c = currCol;
         while(r >= 0 && c < matrix[0].length) {
             if(matrix[r][c] == 1) return false;
             r--;
             c++;
         }
-        //left down
-        r = currRow;
+        r = currRow; //left down
         c = currCol;
         while(c >= 0 && r < matrix.length) {
             if(matrix[r][c] == 1) return false;
             r++;
             c--;
         }
-        //right down
-        r = currRow;
+        r = currRow; //right down
         c = currCol;
         while(c < matrix[0].length && r < matrix.length) {
             if(matrix[r][c] == 1) return false;
             r++;
             c++;
         }
-
         return true;
     }
 }

@@ -31,14 +31,6 @@ public class MaxDepthOfBinaryTree {
         return Math.max(leftDepth, rightDepth);
     }
 
-    private static int maxDepthOfBST(TreeNode root, int depth) {
-        if(root == null) return 0;
-
-        int leftDepth  = 1+ maxDepthOfBST(root.left) ;
-        int rightDepth = 1+ maxDepthOfBST(root.right);
-        return Math.max(leftDepth, rightDepth);
-    }
-
 }
 
 class TreeNode {

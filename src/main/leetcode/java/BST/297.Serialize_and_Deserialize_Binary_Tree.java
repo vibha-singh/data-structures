@@ -11,7 +11,6 @@ class Serialize_and_Deserialize_Binary_Tree {
         serialize(root, sb);
         return sb.toString();
     }
-
     public void serialize(TreeNode root, StringBuilder sb){
         if(root == null )
             sb.append("# ");
@@ -21,7 +20,6 @@ class Serialize_and_Deserialize_Binary_Tree {
             serialize(root.right, sb);
         }
     }
-
     public TreeNode deserialize(String s){
         if(s == null || s.length() == 0) return null;
         StringTokenizer st = new StringTokenizer(s, " ");

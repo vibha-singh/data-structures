@@ -29,13 +29,11 @@ public class SudokuSolver {
         if(currRow == 8 && currCol == 9) {
             return true;
         }
-
         // if in current row we have reached the last col then we will move to next row and 0th col
         if(currCol == 9){
             currCol= 0;
             currRow++;
         }
-
         // if filled then call the method by increasing the col
         if(matrix[currRow][currCol] != 0) {
             return solveSudoku(matrix,currRow,currCol+1);
@@ -61,7 +59,6 @@ public class SudokuSolver {
     private static boolean validGrid(int[][] matrix, int currRow, int currCol, int currVal) {
         int x = 3*(currRow/3);
         int y = 3*(currCol/3);
-
         for(int i = 0; i<3; i++) {
             for(int j= 0; j<3; j++) {
                 if(matrix[x+i][y+j] == currVal) return false;

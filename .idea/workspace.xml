@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b8825e56-ce7d-429e-ada6-e2783ffa3ac7" name="Default Changelist" comment="commit the recent code">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/Practice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/FAANG.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/MorganStanley.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/BasicCalculator1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/BasicCalculator2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/BricksFallingWhenHit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/CriticalConnectionsInANetwork.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/FileProcessed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/Questions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/RankTeamsByVotes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/StringToInteger_Atoi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/TopKFrequentWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/TopVotedCandidate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/lld/snakeGame/Board.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/lld/snakeGame/Cell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/lld/snakeGame/CellType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/lld/snakeGame/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/lld/snakeGame/Snake.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/rateLimiter/algo/leakyBucket/DriverClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/rateLimiter/algo/leakyBucket/LeakyBucket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/rateLimiter/algo/leakyBucket/UserBucketCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/rateLimiter/algo/slidingWindow/RateLimiterService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/rateLimiter/algo/slidingWindow/SlidingWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/rateLimiter/algo/slidingWindow/UserBucketCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/rateLimiter/algo/tokenBucket/DriverClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/rateLimiter/algo/tokenBucket/TokenBucket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/rateLimiter/algo/tokenBucket/UserBucketCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/router/MiddlewareRouter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/router/Router.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/router/RouterImpl$TrieNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/atlassian/router/RouterImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/google/Questions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/paloalto/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/companies/paloalto/PersonClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/A_PLUS_B_EQUALS_C_PLUS_D_IN_AN_ARRAY$pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/A_PLUS_B_EQUALS_C_PLUS_D_IN_AN_ARRAY.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/CountTrailingZeros.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/concurrency/AtomicVariableExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/concurrency/Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/concurrency/LockExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/concurrency/LocksExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/concurrency/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/concurrency/Publisher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/concurrency/SemaphoreExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/concurrency/Worker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/dataStructure/Tree/MaxDepthOfBinaryTreeRecursive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/dataStructure/Tree/MaxDepthOfnArray$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/dataStructure/Tree/MaxDepthOfnArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/dataStructure/Tree/PreOrderBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/dataStructure/Tree/PreOrderNArrayTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/dataStructure/Tree/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/dataStructure/dp/ClimbingStairs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/dataStructure/dp/HouseRobber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/dataStructure/greedy/ActivitySelection$Activity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/dataStructure/greedy/ActivitySelection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/dataStructure/recursion_and_backtracking/BlackAndWhiteKnightProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/dataStructure/recursion_and_backtracking/JosephusSolution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/dataStructure/recursion_and_backtracking/NQueensProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/geeksForGeeks/dataStructure/recursion_and_backtracking/NQueensProblemWithNoOfPossibleSol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/java8/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/java8/FrequencyOfCharInAString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/java8/Java8_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/java8/Java8_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/BST/Serialize_and_Deserialize_Binary_Tree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/AddBinary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Add_Two_Numbers_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/ArrayPartitionI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/BST/DeleteBSTNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/BST/DeleteNodeBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/BST/InsertNodeBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/BST/SearchBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/BST/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/BST/Unique_Binary_Search_Trees.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/BST/ValidBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/BestTimeToBuyAndSellStocks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/BinaryTreeInorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/ContainsDuplicate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/CountOddNumberInRange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Delete_Node_In_A_Linked_List.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/DiagonalTraverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/DiameterOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/FindFirstPalindromicStringintheArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/FindTheMiddleIndexInArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/GenerateParenthesis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/ImplementStrstr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Invert_Binary_Tree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/LRU_Cache$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/LRU_Cache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/LargestNumberAtLeastTwiceOfOthers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/LongestCommonPrefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/LongestPallindrome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/LongestPallindromeSubstring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Longest_Substring_Without_Repeating_Characters_3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/MaxConsecutiveOnes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/MaximumStrength.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Median_of_Two_Sorted_Arrays_4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Merge_Sorted_Array_88.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Merge_Two_Sorted_List.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/MoveZeros.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Number_of_Steps_to_Reduce_a_Number_to_Zero_1342.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/PalindromePartitioning.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/PallindromeNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/PallindromePermutation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/PascalTriangleI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/PlusOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/QueueReconstructionByHeight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/RandomHeightPick.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Regular_expression_matching.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/RemoveDuplicatesFromSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/RemoveDuplicatesFromSortedArray2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/RemoveElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/RemoveNthNodeFromEnd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/RemovePallindromicSubSequences.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Reverse_Integer_7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Reverse_Words_in_a_String.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/RotateArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/RotateMatrixClockwise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/ShortestPallindrome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Spriral_Matrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/StringToAtoi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Swap_Nodes_In_Pairs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/TwoCityScheduling.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/TwoSumIIInputArrayIsSorted.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Two_Sum_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/ValidPalindrome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/ValidPallindromeII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/Valid_Paranthesis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/binarySearch/SearchInsertPosition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/binarySearch/SquareRoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/leetcode/java/java/util/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/JobSchedule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/JobScheduleTrackTime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/MaxSubseqSumNo3AreConsecutive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/TrappingWaterProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/array/CoinChangeProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/array/CountPairsWithGivenSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/array/CyclicallyRotateArrayByOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/array/FindCommonElementsInThreeSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/array/FindDuplicatesInAnArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/array/FindMissingInteger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/array/FirstNonRepeatingElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/array/FirstRepeatingElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/array/LongestAlternatingSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/array/MaximumIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/array/SmallestPositiveIntegerThatCantBeRepresentedAsASum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/array/SumPairClosestToX.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/array/TrappingRainWater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/binarysearchtree/BST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/binarysearchtree/InOrderSuccessorOfBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/binarysearchtree/LowestCommonAncestorBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/binarysearchtree/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/binarysearchtree/SearchInBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/binarysearchtree/SortedArrayToBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/binarysearchtree/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/binarysearchtree/ValidateBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/iterative/binaryTree/LevelOrderTraversalBT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/AllNodesDistanceKInBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/BoundaryTraversalOfBT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/CousinsOfBT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/DiameterOfBT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/HeightOfBT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/InOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/InvertBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/LeafSimilarTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/LeftViewOfABinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/LowestCommonAncestorBT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/MaxDepthOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/MergeTwoBinaryTrees.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/PathSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/PostOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/Preorder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/PrintAllNodesThatDoNotHaveSiblings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/PrintAllPathsFromRootToLeaf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/RightViewOfABinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/SameTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/SumOfLeftNodes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/SumOfRootToLeafPaths.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/SymmetricTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/binarytree/recursive/UnivaluedBT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/CoinChange/CoinChangeI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/CoinChange/CoinChangeII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/CountAllSubsequenceHavingProductLessThanK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/CurrentValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/InterleavedStrings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/LCSOf3Strings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/LongestCommonSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/LongestIncreasingSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/LongestPallindromicSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/LongestRepeatingSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/LongestSequenceSuchThatDiffBWAdjIsOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/MaximizeThecutSegments.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/MaximumLengthOfPairChain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/MaximumSumIncreasingSubSequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/MaximumSumRectangleIN2DMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/PaintingTheFence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/ReachScore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/RodCuttingProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/SpaceOptimizedLCS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/buyAndSellStocks/BestTimeToBAndSStocks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/buyAndSellStocks/BestTimeToBuySellStocksII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/buyAndSellStocks/BestTimeToBuySellStocksIII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/climbinStairs/ClimbingStairs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/climbinStairs/MinCostOfClimbingStairs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/houseRobber/HouseRobberI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/houseRobber/HouseRobberII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/jumpGame/JumpGameI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/jumpGame/JumpGameII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/knapsack/UnboundedKnapsack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/dp/knapsack/ZeroToOneKnapsackProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/graph/AllPathsFromSourceToTarget.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/linkedlist/AddTwoNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/linkedlist/AddTwoSumActual.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/linkedlist/DeleteNodeLL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/linkedlist/MergeTwoSortedLists.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/linkedlist/MiddleOfLL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/linkedlist/ReverseLL$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/linkedlist/ReverseLL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/recursion_and_backtracking/CombinationSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/recursion_and_backtracking/FloodFill.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/recursion_and_backtracking/KnightToursProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/recursion_and_backtracking/LetterCombinationOfPhoneNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/recursion_and_backtracking/MaxAreaOfIsland.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/recursion_and_backtracking/NQueens.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/recursion_and_backtracking/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/recursion_and_backtracking/NumberOfIsland.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/recursion_and_backtracking/PowerOf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/recursion_and_backtracking/RatInAMaze.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/recursion_and_backtracking/RatInAMazeBFS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/recursion_and_backtracking/Subsets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/recursion_and_backtracking/SudokuSolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/stack/AsteroidCollistion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/stack/CelebrityProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/stack/ConvertToValidParenthesis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/stack/LargestRectangleHistogram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/stack/NextGreaterElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/stack/NextSmallerElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/stack/SlidingWindowMaximum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/stack/StockSpanProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/stack/ValidParenthesis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/trie/Trie$TrieNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/trie/Trie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/practice/trie/WordBoggleI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/main/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/companies/MorganStanley.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/practice/JobSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/practice/binarytree/recursive/DiameterOfBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/practice/binarytree/recursive/HeightOfBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/practice/recursion_and_backtracking/BlackAndWhiteBall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/practice/trie/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/practice/trie/WordBoggleI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/companies/atlassian/rateLimiter/algo/leakyBucket/DriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/companies/atlassian/rateLimiter/algo/leakyBucket/DriverClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/companies/atlassian/rateLimiter/algo/leakyBucket/LeakyBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/companies/atlassian/rateLimiter/algo/leakyBucket/LeakyBucket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/companies/atlassian/rateLimiter/algo/leakyBucket/UserBucketCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/companies/atlassian/rateLimiter/algo/leakyBucket/UserBucketCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/datastructures/bst/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/practice/binarytree/binarysearchtree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/geeksForGeeks/A_PLUS_B_EQUALS_C_PLUS_D_IN_AN_ARRAY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/geeksForGeeks/A_PLUS_B_EQUALS_C_PLUS_D_IN_AN_ARRAY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/leetcode/java/BST/297.Serialize_and_Deserialize_Binary_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode/java/BST/297.Serialize_and_Deserialize_Binary_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/leetcode/java/java/54.Spiral_Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode/java/java/54.Spiral_Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/practice/binarytree/recursive/BoundaryTraversalOfBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/practice/binarytree/recursive/BoundaryTraversalOfBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/practice/binarytree/recursive/MaxDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/practice/binarytree/recursive/MaxDepthOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/practice/binarytree/recursive/PrintAllPathsFromRootToLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/practice/binarytree/recursive/PrintAllPathsFromRootToLeaf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/practice/binarytree/recursive/SortedArrayToBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/practice/binarytree/binarysearchtree/SortedArrayToBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/practice/binarytree/recursive/ValidateBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/practice/binarytree/binarysearchtree/ValidateBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/practice/dp/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/practice/dp/LongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/practice/dp/LongestPallindromicSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/practice/dp/LongestPallindromicSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/practice/recursion_and_backtracking/MaxAreaOfIsland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/practice/recursion_and_backtracking/MaxAreaOfIsland.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/practice/recursion_and_backtracking/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/practice/recursion_and_backtracking/NQueens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/practice/recursion_and_backtracking/NumberOfIsland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/practice/recursion_and_backtracking/NumberOfIsland.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/practice/recursion_and_backtracking/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/practice/recursion_and_backtracking/Subsets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/practice/recursion_and_backtracking/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/practice/recursion_and_backtracking/SudokuSolver.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2K4oB3a8gJg0VKO50D62HZeqWjo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java.companies.atlassian.rateLimiter.algo.tokenBucket" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.practice.bst.recursive" />
+      <recent name="main.java.companies.atlassian.rateLimiter.algo.slidingWindow" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Practice">
+    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.practice.dp.LongestCommonSubsequence" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.practice.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPallindromicSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.practice.dp.LongestPallindromicSubsequence" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.practice.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberOfIsland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.practice.recursion_and_backtracking.NumberOfIsland" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.practice.recursion_and_backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.practice.recursion_and_backtracking.Subsets" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.practice.recursion_and_backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Practice" />
+        <item itemvalue="Application.Subsets" />
+        <item itemvalue="Application.LongestCommonSubsequence" />
+        <item itemvalue="Application.LongestPallindromicSubsequence" />
+        <item itemvalue="Application.NumberOfIsland" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8825e56-ce7d-429e-ada6-e2783ffa3ac7" name="Default Changelist" comment="" />
+      <created>1673243076487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673243076487</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit the recent code">
+      <created>1675428967252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675428967254</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit the recent code">
+      <created>1676449307043</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676449307044</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit the recent code">
+      <created>1676479155943</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676479155944</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit the recent code">
+      <created>1676698692238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676698692238</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit the recent code" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit the recent code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/practice/recursion_and_backtracking/KnightToursProblem.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/geeksForGeeks/concurrency/SemaphoreExample.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/practice/stack/NextSmallerElement.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/practice/stack/StockSpanProblem.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/practice/dp/houseRobber/HouseRobberI.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/practice/dp/knapsack/ZeroToOneKnapsackProblem.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/practice/linkedlist/ReverseLL.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/practice/binarytree/recursive/LowestCommonAncestorBT.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/practice/binarytree/recursive/LowestCommonAncestorBT.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/practice/array/TrappingRainWater.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/practice/dp/MaximumLengthOfPairChain.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/practice/dp/LongestCommonSubsequence.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/practice/dp/LongestIncreasingSubsequence.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/practice/dp/LongestSequenceSuchThatDiffBWAdjIsOne.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/practice/dp/LongestSequenceSuchThatDiffBWAdjIsOne.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/practice/dp/LongestPallindromicSubsequence.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

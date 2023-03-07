@@ -21,13 +21,11 @@ public class PrintAllPathsFromRootToLeaf {
 
     private static void findPathToLeafNodes(TreeNode root, ArrayList<String> pathToLeafNodes, String currPath) {
         if(root == null) return;
-
         if(root.left == null && root.right == null) {
             currPath += root.data;
             pathToLeafNodes.add(currPath);
             return;
         }
-
         currPath += root.data +"->";
         if(root.left != null) findPathToLeafNodes(root.left, pathToLeafNodes, currPath);
         if(root.right != null) findPathToLeafNodes(root.right, pathToLeafNodes, currPath);

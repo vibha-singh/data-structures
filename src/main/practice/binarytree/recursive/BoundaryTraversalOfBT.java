@@ -15,7 +15,6 @@ public class BoundaryTraversalOfBT {
         TreeNode root = new TreeNode(10);
         root.left = new TreeNode(20);
         root.right = new TreeNode(25);
-
         root.left.left = new TreeNode(30);
         root.left.right = new TreeNode(40);
         root.left.right.left = new TreeNode(42);
@@ -31,12 +30,10 @@ public class BoundaryTraversalOfBT {
     {
         ArrayList<Integer> res = new ArrayList<>();
         if(node == null) return res;
-
         //1) if root not null add root data in array
         res.add(node.data);
         //2) traverse left of root left
         traverseLeft(node.left, res);
-
         //3) traverse leaf of root left
         traverseLeaf(node.left, res);
         //4) traverse leaf og root right

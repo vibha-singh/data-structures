@@ -39,7 +39,11 @@ import java.util.List;
  * **/
 
 class Spriral_Matrix {
-    public List<Integer> spiralOrder(int[][] matrix) {
+    public static void main(String[] args) {
+        int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
+        System.out.println(spiralOrder(matrix));
+    }
+    static public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> res = new ArrayList();
         if(matrix == null || matrix.length == 0 )   return res;
         int startRow = 0;
@@ -50,12 +54,10 @@ class Spriral_Matrix {
             for(int i = startCol; i<= endCol ; i++){
                 res.add(matrix[startRow][i]);
             }
-
             startRow++;
             for(int i = startRow; i<= endRow; i++){
                 res.add(matrix[i][endCol]);
             }
-
             endCol--;
             if(endRow >= startRow){
                 for(int i = endCol; i>=startCol; i--){
@@ -63,7 +65,6 @@ class Spriral_Matrix {
                 }
                 endRow--;
             }
-
             if(endCol >= startCol){
                 for(int i = endRow; i >= startRow; i--){
                     res.add(matrix[i][startCol]);
