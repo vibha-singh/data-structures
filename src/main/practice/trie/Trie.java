@@ -1,5 +1,7 @@
 package main.practice.trie;
 
+import java.util.Arrays;
+
 public class Trie {
     static TrieNode root;
     static final int ALPHABETS_COUNT= 26;
@@ -8,8 +10,7 @@ public class Trie {
         boolean isEndOfWord;
         TrieNode(){
             isEndOfWord = false;
-            for(int i = 0; i<ALPHABETS_COUNT ; i++)
-                children[i] = null;
+            Arrays.fill(children, null);
         }
     }
     public static void main(String[] args) {

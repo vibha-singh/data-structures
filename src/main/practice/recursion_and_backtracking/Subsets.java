@@ -20,7 +20,7 @@ public class Subsets {
         generateAllSubsets(nums, 0, eachSet, result);
         System.out.println(result);
         ArrayList<String> substring = new ArrayList<>();
-        generateAllSubstring("abc",0,"",substring);
+        generateAllSubsequence("abc",0,"",substring);
         System.out.println(substring);
 
         generateAllSubstring("abc");
@@ -51,15 +51,15 @@ public class Subsets {
      * @param eachSet
      * @param result
      */
-    private static void generateAllSubstring(String str, int currIndex, String eachSet, ArrayList<String> result) {
+    private static void generateAllSubsequence(String str, int currIndex, String eachSet, ArrayList<String> result) {
         if(currIndex >=str.length()){
             result.add(eachSet);
             return;
         }
         char currentValue = str.charAt(currIndex);
-        generateAllSubstring(str, currIndex+1, eachSet, result);
+        generateAllSubsequence(str, currIndex+1, eachSet, result);
         eachSet += currentValue;
-        generateAllSubstring(str, currIndex+1, eachSet, result);
+        generateAllSubsequence(str, currIndex+1, eachSet, result);
     }
 
     /**

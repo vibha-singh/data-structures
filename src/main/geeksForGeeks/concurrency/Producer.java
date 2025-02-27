@@ -1,8 +1,20 @@
 package main.geeksForGeeks.concurrency;
 
+import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 class Publisher implements Runnable{
+
+    public static void main(String[] args) {
+        BlockingQueue<Message> blockingQueue = new ArrayBlockingQueue<>(4);
+        Publisher pub = new Publisher(blockingQueue);
+        Consumer con = new Consumer(blockingQueue);
+
+        Thread p = new Thread(pub);
+        Thread c = new Thread(con);
+        p.start();
+        c.start();
+    }
     BlockingQueue<Message> queue;
 
     public Publisher(BlockingQueue<Message> q){
@@ -12,7 +24,7 @@ class Publisher implements Runnable{
     @Override
     public void run() {
         //produce messages
-        for(int i=0; i<100; i++){
+        for(int i=0; i<50; i++){
             Message msg = new Message(""+i);
             try {
                 Thread.sleep(i);

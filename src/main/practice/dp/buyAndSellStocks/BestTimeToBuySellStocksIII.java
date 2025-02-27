@@ -6,18 +6,20 @@ import java.util.Arrays;
  * Maximum profit has to achieved by at most two transactions
  */
 public class BestTimeToBuySellStocksIII {
+
     public static void main(String[] args) {
         int[] prices = {3,2,6,5,0,3,4};
         int n = prices.length;
         int  k = 2;
-        int[][] dp = new int[k+1][n];
-        for (int tran = 1; tran <= k; tran++) {
-            int tmpMax = Integer.MIN_VALUE;
-            for (int day = 1; day < n; day++) {
-                dp[tran][day] = Math.max(dp[tran][day - 1], prices[day] + tmpMax);
-                tmpMax =  Math.max(tmpMax, dp[tran - 1][day] - prices[day]);
+        int[] prevDiff = new int[k+1];
+        int[] profit = new int[k+1];
+
+        for ( int i = 0; i < n; i++) {
+            for ( int j = 1; j <= k ; j++) {
+                prevDiff[j] = Math.max(prevDiff[j], profit[j-1] - prices[i]);
+                profit[j] = Math.max(profit[j], (prices[i] + prevDiff[j]));
             }
         }
-        System.out.println(dp[k][n - 1]);
+        System.out.println(profit[k]);
     }
 }

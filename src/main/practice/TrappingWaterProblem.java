@@ -11,9 +11,18 @@ public class TrappingWaterProblem {
         for(int i = 1; i<arr.length; i++) {
             lmax[i] = Math.max(arr[i], lmax[i-1]);
         }
+        for(int i = 0; i<arr.length; i++) {
+            System.out.print(lmax[i]);
+        }
+
         rmax[arr.length-1] = arr[arr.length-1];
         for(int i = arr.length-2; i>=0; i--) {
             rmax[i] = Math.max(arr[i], rmax[i+1]);
+        }
+
+        System.out.println();
+        for(int i = 0; i<arr.length; i++) {
+            System.out.print(rmax[i]);
         }
 
         int res = 0;
