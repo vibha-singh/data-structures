@@ -1,6 +1,6 @@
-package main.t2025.DP;
+package main.t2025.DP.integer;
 
-public class A_MaxSumWithNoAdjacentElements {
+public class B_MaxSumWithNoAdjacentElements {
     public static void main(String[] args) {
         int[] arr1 = { 5, 5, 10, 100, 10, 5 }; // Example with positive numbers
         int[] arr2 = { -5, -1, -10, -100, -10, -5 }; // Example with negative numbers

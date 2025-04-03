@@ -1,4 +1,4 @@
-package main.t2025.prefixSum.psWithSlidingWindow;
+package main.t2025.slidingWindow;
 
 public class A_MinimumSizeSubarraySum {
     public static void main(String[] args) {

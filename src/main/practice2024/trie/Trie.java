@@ -7,7 +7,7 @@ public class Trie {
     static final int ALPHABET_COUNT = 26;
     static TrieNode root;
 
-    static class TrieNode {
+    public static class TrieNode {
         TrieNode [] children = new TrieNode[ALPHABET_COUNT];
         boolean isEndOfWord;
 

@@ -3,13 +3,9 @@ package main.t2025.kandaneAlgo;
 
 /**
  * Problem: Given an array of integers, find the contiguous subarray with the maximum sum.
- *
  * Example:
- *
  * Input: [-2, 1, -3, 4, -1, 2, 1, -5, 4]
- *
  * Output: 6 (from subarray [4, -1, 2, 1])
- *
  * Solution: Use Kadane's algorithm.
  */
 public class A_MaxSubArraySum {

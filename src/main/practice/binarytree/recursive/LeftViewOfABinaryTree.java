@@ -24,4 +24,15 @@ public class LeftViewOfABinaryTree {
         leftView(root.left, currLevel+1);
         leftView(root.right, currLevel+1);
     }
+
+    private static void rightView(TreeNode root, int currLevel) {
+        if(root == null) return;
+        if(maxLevel < currLevel) {
+            System.out.print(root.data+" ");
+            maxLevel = currLevel;
+        }
+
+        rightView(root.right, currLevel+1);
+        rightView(root.left, currLevel+1);
+    }
 }

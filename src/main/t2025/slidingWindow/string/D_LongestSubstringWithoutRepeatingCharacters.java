@@ -3,6 +3,9 @@ package main.t2025.slidingWindow.string;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ *
+ */
 public class D_LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
         String s = "abcabcbb";
