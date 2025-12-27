@@ -2,7 +2,7 @@ package main.t2025.stack;
 
 import java.util.Stack;
 
-public class A_LargestSizeHistogram {
+public class  A_LargestSizeHistogram {
 
     public static void main(String[] args) {
         int [] original = { 6, 2, 5, 4, 5, 1, 6 };

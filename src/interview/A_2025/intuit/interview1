@@ -1,0 +1,16 @@
+// Quickbooks helps small businesses with day-to-day operations. Intuit wants you to use company data from Quickbooks to discover relationships between companies in their networks.
+
+// For example:
+
+// CompanyA purchases dairy from CompanyB. CompanyB purchases pet feed from companyC.
+
+// Company A (Grocery Store, address, etc) <--> Company B (Dairy Farm, address, etc) <--> Company C (Pet Feed Store, address, etc).
+
+// A <--> B <--> C
+ // A <--> E
+// A <--> B <-->C
+//     A<-->E<-->D<-->C
+
+// E <--> F
+
+// Deliver a feature for users that checks how many degrees of separation exist between two different businesses. For example, Business A regularly buys goods from Business B which regularly buys from Business C. A is one degree separated from C! The code must return the shortest path if there are multiple. Run your code with the example above. A <--> B <--> C Degree of separation between A & C is 1.
